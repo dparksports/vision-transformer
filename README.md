@@ -2,6 +2,18 @@
 
 
 ```bash
+python check-cuda.py 
+CUDA Available: True
+PyTorch Version: 2.7.1+cu128
+Device Name: NVIDIA GeForce RTX 5090
+Device Index: 0
+CUDA Capability: 12.0
+Compiled CUDA Architectures: ['sm_75', 'sm_80', 'sm_86', 'sm_90', 'sm_100', 'sm_120', 'compute_120']
+
+
+```
+
+```bash
 python -m bitsandbytes
 =================== bitsandbytes v0.46.1 ===================
 Platform: Linux-6.11.0-17-generic-x86_64-with-glibc2.39
