@@ -1,5 +1,10 @@
 # vision-transformer
 
+```bash
+echo 'export PATH=/usr/local/cuda/bin:$PATH' >> ~/envs/internvl/bin/activate
+echo 'export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH' >> ~/envs/internvl/bin/activate
+
+```
 
 ```bash
 python check-cuda.py 
