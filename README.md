@@ -42,6 +42,9 @@ Related packages:
 PyTorch settings found: CUDA_VERSION=128, Highest Compute Capability: (12, 0).
 Checking that the library is importable and CUDA is callable...
 SUCCESS!
+```
 
-
+```bash
+python check-transformers.py 
+<class 'transformers.cache_utils.EncoderDecoderCache'>
 ```
